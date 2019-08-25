@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "webmontag": {
+      "description": "A blank schematic.",
+      "factory": "./webmontag/index#webmontag",
+      "schema": "./webmontag/schema.json"
+    }
+  }
+}
